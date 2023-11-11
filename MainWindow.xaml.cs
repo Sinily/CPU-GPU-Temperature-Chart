@@ -1,4 +1,4 @@
-﻿using System; // basic functionality
+using System; // basic functionality
 using System.ComponentModel; // INotifyPropertyChanged
 using System.Linq; // Where()
 using System.Windows; // WPF functionality
@@ -288,6 +288,11 @@ namespace YourWPFProject
             System.Media.SystemSounds.Exclamation.Play();
         }
         private void HideGPUTemperatureWarning() { warningGpuGrid.Visibility = Visibility.Collapsed; }
+
+
+        // ABOUT BOX
+        private void ShowAboutBox(object sender, RoutedEventArgs e) { aboutBox.Visibility = Visibility.Visible; }
+        private void CloseAboutBox(object sender, RoutedEventArgs e) { aboutBox.Visibility = Visibility.Hidden; }
 
         #endregion
 
