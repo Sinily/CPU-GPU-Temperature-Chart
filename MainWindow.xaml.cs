@@ -289,11 +289,6 @@ namespace YourWPFProject
         }
         private void HideGPUTemperatureWarning() { warningGpuGrid.Visibility = Visibility.Collapsed; }
 
-
-        // ABOUT BOX
-        private void ShowAboutBox(object sender, RoutedEventArgs e) { aboutBox.Visibility = Visibility.Visible; }
-        private void CloseAboutBox(object sender, RoutedEventArgs e) { aboutBox.Visibility = Visibility.Hidden; }
-
         #endregion
 
 
