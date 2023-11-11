@@ -111,18 +111,5 @@
                 </Grid>
             </Border>
         </Grid>
-        <Button Content="About" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="12" Click="ShowAboutBox"/>
-        <Grid Name="aboutBox" HorizontalAlignment="Right" VerticalAlignment="Bottom" Visibility="Hidden">
-            <Border Background="White" Width="200" Height="170" BorderBrush="Black" BorderThickness="1">
-                <StackPanel>
-                    <TextBlock Text="CP Project" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,10"/>
-                    <TextBlock Text="Creator: Viktoria Stefanova" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                    <TextBlock Text="№: 379220" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                    <TextBlock Text="CST, FEA" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                    <TextBlock Text="TU-Sofia, Plovdiv branch" HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Button Content="Close" HorizontalAlignment="Center" Click="CloseAboutBox"/>
-                </StackPanel>
-            </Border>
-        </Grid>
     </Grid>
 </Window>
